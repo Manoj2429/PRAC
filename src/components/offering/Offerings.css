@@ -1,0 +1,90 @@
+/* SECTION */
+.offerings {
+  padding: 80px 20px;
+  background: #f7f9fc;
+  font-family: Arial, sans-serif;
+}
+
+/* TITLE */
+.title {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  color: #000;
+}
+
+/* MAIN CONTAINER */
+.offerings-container {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* SIDEBAR (SHADED) */
+.sidebar {
+  width: 300px;
+  background: #f4f6fb;              /* ✅ light shaded sidebar */
+  border-right: 1px solid #e2e6ef;
+  padding: 10px 0;
+}
+
+/* SIDEBAR ITEMS */
+.side-item {
+  padding: 18px 30px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f4f6fb;              /* ✅ shaded menu items */
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+/* HOVER SHADE */
+.side-item:hover {
+  background: #e9efff;              /* ✅ soft hover shade */
+}
+
+/* ACTIVE ITEM (BLUE STRIP + BG) */
+.side-item.active {
+  background: #eef4ff;              /* ✅ active shade */
+  color: #1f5fd8;
+  font-weight: 600;
+  border-left: 4px solid #1f5fd8;
+}
+
+/* CONTENT AREA */
+.content {
+  padding: 50px 60px;
+  flex: 1;
+}
+
+.content h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.content p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.content ul {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.content li {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}

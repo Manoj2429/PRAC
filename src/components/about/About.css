@@ -1,0 +1,32 @@
+.about-page {
+  width: 100vw;          /* FULL WIDTH */
+  height: 100vh;         /* FULL HEIGHT */
+}
+
+.about-hero {
+  position: relative;
+  width: 100vw;          /* FULL WIDTH */
+  height: 100vh;         /* FULL SCREEN */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.para {
+  margin-top: 1rem;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-content {
+  position: relative;
+  color: rgb(255, 255, 255);
+  max-width: 700px;
+  padding-left: 80px;
+  z-index: 2;
+}

@@ -1,0 +1,10 @@
+npm create vita@latest
+ok
+Project_name = ---
+select freamework:
+select a variant:--
+yes
+
+yes
+npm run dev (run the coing in terminal)
+dir (details)
